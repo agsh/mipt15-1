@@ -16,7 +16,7 @@ main = do
   dir <- getCurrentDirectory
   putStrLn dir
   initReq <- parseUrl "http://mipt.eu01.aws.af.cm/lab1"
-  handle <- openFile (dir ++ "/post.hs") ReadMode
+  handle <- openFile (dir ++ "/boilerplate.hs") ReadMode
   content <- hGetContents handle
   let req = urlEncodedBody [("email", email), ("name", name), ("content", C.pack content)] $ initReq { method = "POST" }
   response <- withManager $ httpLbs req
