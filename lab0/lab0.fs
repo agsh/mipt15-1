@@ -6,7 +6,7 @@ open System.Collections.Specialized
 
 let (email, name) = ("", "") // адрес почты и фамилия с инициалами
 
-let pascal a b = 1 // а тут решение
+let pascal c r = 1 // а тут решение
 
 let printIt n = 
   "[" +
