@@ -8,7 +8,7 @@ import qualified Data.ByteString.Char8 as C
 
 (email, name) = ("", encodeUtf8 "") -- адрес почты и фамилия с инициалами
 
-pascal _ _ = 1 -- а тут решение
+pascal c r = 1 -- а тут решение
 
 printIt n = C.pack $ show $ [0..n] >>= (\x -> map (\y -> pascal y x) [0..x])
 
