@@ -12,7 +12,7 @@ pascal :: Int -> Int -> Int
 pascal c r = 1 -- а тут решение
 
 printIt :: Int -> C.ByteString
-printIt n = C.pack $ show $ [0..n] >>= (\x -> map (\y -> pascal y x) [0..x])
+printIt n = C.pack $ show $ [pascal y x | x <- [0..n], y <- [0..x]]
 
 main :: IO()
 main = do
