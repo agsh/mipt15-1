@@ -37,7 +37,7 @@ let dichotomy =
 
 let printSolve () =
     [iter; newton; dichotomy] 
-    |> List.map (fun f -> f (fun x -> x) a b) 
+    |> List.map (fun f -> f fSolve a b) 
     |> List.iter (fun (res, cou) -> printf "%f\t%d\n" res cou)
 
 let main () = 
