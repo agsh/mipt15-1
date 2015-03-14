@@ -52,7 +52,7 @@ printSolve =
 main = do	
 	dir <- getCurrentDirectory
 	putStrLn dir
-	initReq <- parseUrl "http://localhost:3000/lab1" --"http://mipt.eu01.aws.af.cm/lab1"
+	initReq <- parseUrl "http://mipt.eu01.aws.af.cm/lab1"
 	handle <- openFile (dir ++ "/Lab1.hs") ReadMode
 	content <- hGetContents handle
 	let req = urlEncodedBody [("email", email), ("content", C.pack content)] $ initReq { method = "POST" }
