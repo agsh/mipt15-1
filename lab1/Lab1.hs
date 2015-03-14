@@ -50,11 +50,13 @@ printSolve =
 	mapM_ putStrLn $ map (\f -> show $ f fSolve a b) [iter, newton, dichotomy]
 
 main = do	
+	withSocketsDo $ do
 	dir <- getCurrentDirectory
-	putStrLn dir
 	initReq <- parseUrl "http://mipt.eu01.aws.af.cm/lab1"
 	handle <- openFile (dir ++ "/Lab1.hs") ReadMode
+	hSetEncoding handle utf8_bom
 	content <- hGetContents handle
 	let req = urlEncodedBody [("email", email), ("content", C.pack content)] $ initReq { method = "POST" }
 	response <- withManager $ httpLbs req
+	hClose handle
 	L.putStrLn $ responseBody response
