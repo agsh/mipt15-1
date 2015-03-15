@@ -9,6 +9,7 @@ import Control.Monad
 import Network.HTTP.Conduit
 import qualified Data.ByteString.Lazy as L
 import qualified Data.ByteString.Char8 as C
+import Network (withSocketsDo)
 
 -- почтовый адрес
 email = ""
