@@ -16,3 +16,16 @@
 |13|Составить частоту обновлений [проектов на F#](https://github.com/search?utf8=%E2%9C%93&q=language%3AF%23&type=Repositories&ref=advsearch&l=F%23) на github (в течении последнего месяца, двух, и т.д.)|
 |14|Узнать, от какой библиотеки зависит больше всего запрещённых [пакетов на hackage](http://hackage.haskell.org/packages/deprecated)|
 |15|Найти пять самых скачиваемых пакетов за всё время на [hackage](http://hackage.haskell.org/packages/top)|
+|16|Какой процент составляют issue с комментариями от общего количества issue для [NuGet](https://github.com/nuget/home/issues?page=1&q=is%3Aissue+is%3Aopen)?|
+|17|Какое количество [разработчиков NuGet](https://nuget.codeplex.com/team/view) уже переехали на github, если судить по их никам?|
+|18|Кто из [разработчиков Microsoft](https://github.com/Microsoft) на github ведёт блог на blogs.msdn.com и указал его в профиле?|
+|19|Попытаться найти по [списку языков программирования](http://en.wikipedia.org/wiki/List_of_programming_languages) википедии человека, который разработал больше всего ЯП|
+|20|Какое количество ссылок на [странице о LISP](https://www.linux.org.ru/wiki/en/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1._%D0%9E%D0%B1%D1%89%D0%B8%D0%B5_%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B_%D0%BE_Lisp) ведут на англоязычные ресурсы, а какие - на русскоязычные?|
+|21|Под какой лицензией выпущено большинство [проектов на F#](https://github.com/search?utf8=%E2%9C%93&q=language%3AF%23&type=Repositories&ref=advsearch&l=F%23) на github, если судить по файлу LICENSE?|
+|22|Сколько пакетов в [Hackage](http://hackage.haskell.org/packages/) относятся к нескольким группам?
+|23|У какого факультета ФИВТ больше всего [кафедр](http://wikimipt.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D1%8B_%D0%BF%D0%BE_%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83)?
+|24|Сколько музыкальных групп всего с одним треком находится в [чарте last.fm](http://www.last.fm/charts/tracks/top/place/Russian+Federation?limit=100) top100 композиций по РФ?|
+|25|Какие группы появлялись в чартах last.fm с [2008](http://www.last.fm/bestof/2008) по [2013](http://www.last.fm/bestof/2013) года (исключая 2012) больше всего раз?|
+|26|Кто, кроме anonymous'а оставил больше всего комментариев в [этой теме](https://www.linux.org.ru/news/google/11404954)?|
+|27|Какой тэг самый популярный среди ста самых популярных пакетов на [NuGet](https://www.nuget.org/stats/packages)?
+|28|В каком месяце какого года было больше всего вопросов в [рассылке эрланга](http://erlang.org/pipermail/erlang-questions/)?|
