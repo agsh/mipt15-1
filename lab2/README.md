@@ -2,7 +2,7 @@
 ### Задание
 
 В этой лабораторной вам предстоит работать со списками, полученными в результате разбора веб-страниц.
-Для этих целей используются библиотеки [FSharp.Data](https://fsharp.github.io/FSharp.Data/library/HtmlParser.html) и [*-conduit](https://github.com/snoyberg/xml). Они позволяют изящно разбирать и запрашивать данные из таких иерархических структур как json, xml, html. В нашем случае мы будем разбирать html-страницы, запрашивать содержимое тэгов с помощью селекторов и получать нужные нам данные в последовательностях и списках соответственно.
+Для этих целей используются библиотеки [FSharp.Data](https://fsharp.github.io/FSharp.Data/library/HtmlParser.html) и [*-conduit](https://github.com/snoyberg/xml). Они позволяют изящно разбирать и запрашивать данные из таких иерархических структур как json, xml, html. В нашем случае мы будем работать с html-страницами, запрашивать содержимое тэгов с помощью селекторов и получать нужные нам данные в последовательностях и списках соответственно.
 
 Примеры работы с библиотеками для каждого из языков находятся в соответствующих boilerplate-файлах: [Lab2.fs](./Lab2.fs) и [Lab2.hs](./Lab2.hs). И в интернете: [FSharp.Data](https://fsharp.github.io/FSharp.Data/library/HtmlParser.html), [html-conduit](https://www.fpcomplete.com/school/starting-with-haskell/libraries-and-frameworks/text-manipulation/tagsoup)
 
