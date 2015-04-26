@@ -6,3 +6,5 @@
 * [Номер два](/lab2)
 
 Результаты можно посмотреть здесь: http://mipt.eu01.aws.af.cm/labs
+
+*Реклама. Онлайн видеокурс Erlang монады ленивые вычисления mnesia функтор скачать [http://erlang-mnesia-video.ru/](http://erlang-mnesia-video.ru/)*
